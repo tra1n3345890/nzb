@@ -44,6 +44,13 @@ html {
 
 @font-face {
     font-family: 'Open Sans';
+  src: local("Open Sans"), local("OpenSans"), url("../fonts/opensans/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
   src: local("Open Sans"), local("OpenSans"), url("../fonts/opensans/opensans.woff2") format("woff2"), url("../fonts/opensans/opensans.woff") format("woff"), url("../fonts/opensans/opensans.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -54,6 +61,13 @@ html {
   src: local("Open Sans Italic"), local("OpenSans-Italic"), url("../fonts/opensans/opensansitalic.woff2") format("woff2"), url("../fonts/opensans/opensansitalic.woff") format("woff"), url("../fonts/opensans/opensansitalic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+  src: local("Open Sans"), local("OpenSans"), url("../fonts/opensans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 
 /*
@@ -107,4 +121,39 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
     background-position: -20px -20px;
     width: 17px;
     height: 19px;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav {
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    menu ul {
+        font-size: 10px;
+    }
 }

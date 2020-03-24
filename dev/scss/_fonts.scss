@@ -1,6 +1,13 @@
 @font-face {
     font-family: 'Open Sans';
     src: local('Open Sans'), local('OpenSans'), 
+    url('../fonts/opensans/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), 
     url('../fonts/opensans/opensans.woff2') format('woff2'), 
     url('../fonts/opensans/opensans.woff') format('woff'), 
     url('../fonts/opensans/opensans.ttf') format('truetype');
@@ -15,4 +22,11 @@
     url('../fonts/opensans/opensansitalic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), 
+    url('../fonts/opensans/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }

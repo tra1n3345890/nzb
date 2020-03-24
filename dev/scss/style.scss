@@ -2,4 +2,25 @@
 @import '_fonts';
 @import '_sprite';
 
-
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+nav {
+    font-weight: 700;
+    padding: 1rem 0;
+}
+menu {
+    display: flex;
+    align-items: center;
+    
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        @media screen and (max-width: 767px) {
+            font-size: 10px;
+        }
+    }
+}
