@@ -141,6 +141,10 @@ menu {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 menu ul {
@@ -150,10 +154,26 @@ menu ul {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     width: 100%;
+    margin-top: 1.5rem;
 }
 
 @media screen and (max-width: 767px) {
     menu ul {
         font-size: 10px;
     }
+}
+
+menu .top-icons {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+menu .top-social i {
+    margin-left: 1rem;
 }
