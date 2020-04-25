@@ -23,14 +23,42 @@ menu {
         @media screen and (max-width: 767px) {
             font-size: 10px;
         }
+        a {
+            text-decoration: none;
+            color: #100288;
+            font-size: 1.2rem;
+            transition: color .5s;
+        }
+        a:hover {
+            color: #cfa227;
+            border-bottom: 2px solid #cfa227;
+        }
+    }
+    .top {
+        color: #696666;
     }
     .top-icons {
-        width: 80%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        a {
+            text-decoration: none;
+            color: #0a0a0a;
+            transition: all .5s;
+        }
+        
     }
-    .top-social i{
+    .top-social {
+        i {
         margin-left: 1rem;
+        }
+        a:hover {
+            color: #100288;
+        }
     }
 }
+
+
+@import 'main';

@@ -1,0 +1,37 @@
+.main-banner {
+    position: relative;
+    .slide {
+        width: 100%;
+        height: 780px;
+    }
+    .main-slide-1 {
+        background-image: url(../img/banner/baner-1-1.jpg);
+    }
+    .main-slide-2 {
+        background-image: url(../img/banner/baner-2-1.jpg);
+    }
+    .main-slide-3 {
+        background-image: url(../img/banner/baner-3-1.jpg);
+    }
+    .slick-dots {
+        bottom: 10px;
+    }
+    .arrows {
+        position: absolute;
+        top: 50%;
+        cursor: pointer;
+        font-size: 70px;
+        color: rgba($color: #000000, $alpha: .3);
+        transition: all .5s;
+    }
+    .arrows:hover {
+        transform: scale(1.1);
+        color: rgba($color: #000000, $alpha: .5);
+    }
+    #prev-button {
+        left: 20px;
+    }
+    #next-button {
+        right: 20px;
+    }
+}

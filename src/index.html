@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="plugins/fontawesome-5.13.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css"/>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Document Title</title>
     
@@ -20,7 +22,8 @@
         </div>
         <menu class="col-10 menu">
             <div class="top">
-                <p class="top-icons"><a href="tel:+"><i class="fas fa-mobile-alt"></i> +38 097 000 00 00</a> <span class="top-social"><a href="facebook.com"><i class="fab fa-facebook-f"></i></a> <a href="instagram.com"><i class="fab fa-instagram"></i></a></span></p>
+                <p class="top-icons col-12"><a href="tel:+"><i class="fas fa-mobile-alt"></i> +38 097 000 00 00</a> 
+                    <span class="top-social"><a href="http://facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a> <a href="http://instagram.com" target="blank"><i class="fab fa-instagram"></i></a></span></p>
                 <p><i class="fas fa-map-marker-alt"></i> Криворожская городская клиническая больница №2, ул 30-летия Победы, 2</p>
             </div>
             <ul>
@@ -43,8 +46,23 @@
         </menu>
     </div>
 </nav>
+    <div class="main-banner">
+    <div id="main-slider">
+        <div class="slide main-slide-1">
+        </div>
+        <div class="slide main-slide-2">
+        </div>
+        <div class="slide main-slide-3">
+        </div>
+    </div>
+
+    <i class="fas fa-angle-double-left arrows" id="prev-button"></i>
+    <i class="fas fa-angle-double-right arrows" id="next-button"></i>
+    
+</div>
     <script src="plugins/jquery-3.4.1.min.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugins/slick/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
